@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 2-Find</title>
+</head>
+<style> 
+  	body {
+    	background-color: #3E8EDE}
+  	header h1{
+    	color: black; 
+    	text-align:center;
+    	font-size: 50px;}
+  	header.sticky {
+    	position: -webkit-sticky;
+    	position: sticky;
+    	top: 0;
+    	background-color: #A0522D;
+    	color: #fff; 
+    	padding: 20px; width: 100%; 
+    	box-sizing: border-box}
+    h2{
+		color: black; 
+    	background-color: white;
+    	font-size: 30px;
+ 		box-sizing: border-box}
+ 	nav {
+    	text-align:center; padding: 15px 0}
+    nav a{
+      	color:black; 
+      	font-size: 20px}
+    nav ul{
+      	list-style-type: none}
+    nav ul li{
+      	display: inline-block}
+</style>
+<body>
+  <header class="sticky">
+    <h1><em>Jumbo Sublet</em>
+    <img src="JumboLogo.png" width=10% align="left">
+    <img src="House1.png" width=25% border= 1px align="right">
+    <h1>
+  <nav>
+    <ul>
+      <li><a href ="Assignment2-Home.html">Home</a></li>
+      <li><a href ="Assignment2-Find.html">Find</a></li>
+      <li><a href ="Assignment2-Add.html">Add</a></li>
+      <li><a href ="Assignment2-Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </header> 
+  <h2 align="center">Find your dream home for the semester!</h2>
+  <p>
+  	Answer the questions below with your housing preferences. 
+  </p>
+  <form action="/action_page.php"> 
+
+  		<br>
+  		<h3>Contact Info:</h3>
+  		<label for="fname">First Name</label> <br>
+  		<input type="text" name="First name" placeholder="Enter Firstname..."> <br>
+  		<label for="lname">Last Name</label> <br>
+	  	<input type="text" name="Last name" placeholder="Enter Lastname..."> <br>
+	  	<label for="email">Email</label> <br>
+	  	<input type="text" name="Email" placeholder="Enter Email..."> <br>
+	  	<label for="phone">Phone</label> <br>
+	  	<input type="phone" name="phone" placeholder="Enter Phone Number..."> <br> <br>
+	  	
+	  	<h3> Location Preference:</h3>
+  		<label for="city">Which city?</label> <br>
+  		<input type="radio" name="city" value="Medford" checked>Medford
+  		<input type="radio" name="city" value="Somerville" checked>Somerville
+  		
+
+  		<h3> House Preference:</h3>
+		<label for="Address">How Many bedrooms are you looking for?</label>
+		<input type="number" name="quantity" min="0" max="10" step="1" value="0"> <br>
+
+		<label for="Address">How Many bathrooms are you looking for?</label>
+		<input type="number" name="quantity" min="0" max="5" step=".5" value="0"> <br>
+
+		<label for="Park">Do you need Parking?</label>
+		<input type="radio" name="Park" value="Yes" checked>Yes
+  		<input type="radio" name="Park" value="Not" checked>No<br>
+
+
+  		<label for="Rent">What monthly rent are you willing to pay?</label>
+  		<input type="text" name="Rent" value=""><br>
+
+		<br><h3>When:</h3>
+		Enter month you are looking to sublet
+  		<input type="month" name="bdaymonth">
+  	</form>
+  	<br><input type="submit" value="Submit"> <br>
+  
+
+  
+
+  <h2>
+</body>
+
+</html
+
